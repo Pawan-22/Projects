@@ -16,7 +16,7 @@ let formValidation = () => {
     console.log("failure");
     msg.innerHTML = "Task cannot be blank";
   } else {
-    console.log("success");
+    //console.log("success");
     msg.innerHTML = "";
     acceptData();
     add.setAttribute("data-bs-dismiss", "modal");
@@ -39,7 +39,7 @@ let acceptData = () => {
 
   localStorage.setItem("data", JSON.stringify(data));
 
-  console.log(data);
+  //console.log(data);
   createTasks();
 };
 
@@ -67,7 +67,7 @@ let deleteTask = (e) => {
   e.parentElement.parentElement.remove();
   data.splice(e.parentElement.parentElement.id, 1);
   localStorage.setItem("data", JSON.stringify(data));
-  console.log(data);
+  //console.log(data);
 
 };
 
@@ -89,6 +89,6 @@ let resetForm = () => {
 
 (() => {
   data = JSON.parse(localStorage.getItem("data")) || []
-  console.log(data);
+  //console.log(data);
   createTasks();
 })();
