@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
+import Header from "../components/Header";
 
 const Login = () => {
   const [input, setInput] = useState({
@@ -30,7 +31,8 @@ const Login = () => {
   };
 
   return (
-    <section className="vh-100">
+    <section className="overflow-auto vh-100">
+      <Header />
       <div className="mask d-flex align-items-center h-100 gradient-custom-3">
         <div className="container h-100">
           <div className="row d-flex justify-content-center align-items-center h-100">
@@ -38,7 +40,7 @@ const Login = () => {
               <div className="card" style={{ borderRadius: "15px" }}>
                 <div className="card-body p-5">
                   <h2 className="text-uppercase text-center mb-5">Login</h2>
-                  <form onSubmit={handleLogin}>
+                  <form onSubmit={handleLogin} className="mb-5">
                     <div className="form-outline mb-4">
                       <input
                         type="email"

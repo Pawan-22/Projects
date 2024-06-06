@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
+import Header from "../components/Header";
 
 const Signup = () => {
   const [input, setInput] = useState({
@@ -35,7 +36,8 @@ const Signup = () => {
   };
 
   return (
-    <section className="vh-100">
+    <section className="overflow-auto vh-100">
+      <Header />
       <div className="mask d-flex align-items-center h-100 gradient-custom-3">
         <div className="container h-100">
           <div className="row d-flex justify-content-center align-items-center h-100">
