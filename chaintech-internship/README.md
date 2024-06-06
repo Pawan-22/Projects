@@ -1,8 +1,3 @@
-# React + Vite
+This project is a simple login page designed to facilitate user registration and profile editing. Built with React, it efficiently manages state using React hooks and employs local storage for data storage. Users can sign up by providing essential details like name, email, phone number, and password. Once registered, they can log in using their credentials and edit their profile information as needed.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Use "npm run dev" command to start development server locally.
