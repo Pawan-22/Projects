@@ -1,0 +1,19 @@
+.add-service-button {
+  display: flex;
+  justify-content: center;
+}
+.add-service-button button {
+  background-color: #138808;
+  border-radius: 4px;
+  border: none;
+  margin-left: 5px;
+  padding: 10px 15px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.add-service-button button:hover {
+  background-color: cadetblue;
+}

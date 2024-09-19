@@ -1,0 +1,48 @@
+.edit-form-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.edit-form-container form div {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: 600;
+  color: #555;
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  width: 90%;
+  font-size: 15px;
+}
+
+.edit-form-container button {
+  background-color: cadetblue;
+  border-radius: 4px;
+  border: none;
+  margin-left: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.edit-form-buttons button:hover {
+  background-color: var(--button-hover-color);
+}
